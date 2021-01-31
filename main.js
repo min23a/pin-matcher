@@ -24,7 +24,7 @@ function c(){
 function validation(){
     let pin = document.querySelector("#pin_output").value;
     let userPin = document.querySelector("#user_input").value;
-    if ( pin == userPin){
+    if ( pin === userPin){
         document.querySelector("#success").style.opacity = 1;
     }
     else if(pin != userPin){
