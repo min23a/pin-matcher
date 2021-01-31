@@ -2,9 +2,12 @@
 function pinGenerator() {
     let pin = Math.random() * 10000 + '';
     let pinInput = pin.split('.')[0];
-    if (pinInput.length == 4) {
+    if (pinInput.length === 4) {
         let input = document.querySelector("#pin_output");
         input.setAttribute("value", pinInput);
+    }
+    else{
+        return pinGenerator;
     }
 }
 //gets user input
