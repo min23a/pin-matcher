@@ -106,11 +106,7 @@ color: #E0B612;
 }
 #fail{
     opacity: 0;
-    position: absolute;
-    top: 103%;
 }
 #success {
     opacity: 0;
-    position: absolute;
-    top: 103%;
 }
